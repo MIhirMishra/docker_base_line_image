@@ -12,10 +12,6 @@ libraries like java sdk, maven and aws cli.
 ^AWS CodeBuild is a fully managed build service that compiles source code, runs tests, 
 and produces software packages that are ready to deploy.
 
-launch the ../infra-automation/codebuild-custom-container-ci.yaml 
- with param: CodeCommitRepo : repo name of [1]
-             ECR Repo name for this codebuild custom environment 
-             [You need this as a param to ../infra-automation/master-ecs-yaml - CodeBuildContainerSpringBootDocker ]
 
 
 
