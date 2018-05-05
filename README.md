@@ -12,5 +12,6 @@ libraries like java sdk, maven and aws cli.
 ^AWS CodeBuild is a fully managed build service that compiles source code, runs tests, 
 and produces software packages that are ready to deploy.
 
+Any change in this repo will trigger the built of new docker image which is pushed to ECR.
 
 
